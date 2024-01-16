@@ -35,7 +35,7 @@ const division = (numero1, numero2) => numero1/numero2;
 
 OBJETOS: ARREGLOS Y LISTAS
 
-ARREGLOS:
+- ARREGLOS:
 const frutas = ['Platano', 'Sandía', 'Mango', true, 22, 50.5]; 
 Index - 0, 1, 2, 3. 4, 5
 lenght - 6
@@ -45,7 +45,7 @@ frutas.forEach((element, index) => {
     console.log(`Fruta: ${index} ${element}`); 
 });
 
-LISTA:
+- LISTA:
 const person = {
     name: '',
     address: '' {
@@ -63,5 +63,19 @@ const person = {
 }
 
 console.log(person.socialNetwork.facebook)
+
+- ARREGLOS DE LISTA:
+const users = [person, person2];
+users.forEach((element, index) => {
+    console.log(`Usuario con indide ${index} tus datos son: `);
+    console.log(`Nombre completo: ${element.name}`);
+})
+
+- DESESTRUCTURACIÓN
+const users = [person, person2];
+users.forEach(({name, lastname, address:{street}, socialNetwork: {facebook}}, index) => {
+    console.log(`Usuario con indide ${index} tus datos son: `);
+    console.log(`Nombre completo: ${element.name}`);
+})
 
 */
