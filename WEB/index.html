@@ -56,7 +56,7 @@
         </div>
     </nav>
 
-    <!-- Section -->
+    <!-- Section 1 -->
     <section id="home" class="shadow-sm p-3 mb-5 bg-body rounded">
         <div class="container">
             <div class="row">
@@ -113,7 +113,7 @@
     </section>
 
     <!-- Botones CRUD -->
-    <div style="flex-direction: column; display: flex; align-items: center;">
+    <div class=" shadow-sm" style="margin-bottom: 30px; flex-direction: column; display: flex; align-items: center;">
         <button class="button" onclick="get()">GET</button>
         <button class="button" onclick="getAll()">GET ALL</button>
         <button class="button" onclick="post()">POST</button>
@@ -122,8 +122,63 @@
             onclick="del()">DELETE</button>
     </div>
 
+    <!-- Section 2 -->
+    <section id="contact" class="my-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="container">
+                    <form id="">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="col-12 my-3">
+                                    <label for="">Nombre completo <span class="text-danger">(*)</span></label>
+                                    <input class="form-control" id="fullname">
+                                </div>
+                                <div class="col-12 my-3">
+                                    <label for="">Teléfono <span class="text-danger">(*)</span></label>
+                                    <input class="form-control" id="fullname" type="tel">
+                                </div>
+                                <div class="col-12 my-3">
+                                    <label for="">País <span class="text-danger">(*)</span></label>
+                                    <input list="country" class="form-control">
+                                    <datalist id="country">
+                                        <option value="México"></option>
+                                        <option value="Portugal"></option>
+                                        <option value="Argentina"></option>
+                                        <option value="España"></option>
+                                        <option value="Chile"></option>
+                                        <option value="España"></option>
+                                        <option value="Honduras"></option>
+                                        <option value="Estados Unidos"></option>
+                                    </datalist>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 text-center">
+                                <h3>Ven y conócenos</h3>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15103.07619900132!2d-99.20099234999999!3d18.852934049999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd8bad2a5ef7d%3A0xddfd0f46aac691ee!2sUniversidad%20Tecnol%C3%B3gica%20Emiliano%20Zapata%20UTEZ!5e0!3m2!1ses!2smx!4v1706021069698!5m2!1ses!2smx"
+                                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <!-- Text Area -->
+                            <div class="col-12">
+                                <label for="">Escribe aquí tus dudas <span class="text-danger">(*)</span></label>
+                                <textarea class="form-control" name="message" cols="30" rows="3"></textarea>
+                            </div>
+                            <!-- Botón -->
+                            <div class="col-12 mt-3 text-end">
+                                <button type="submit" class="btn btn-outline-primary">Enviar Mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/fetch.js"></script>
 </body>
 
 </html>
