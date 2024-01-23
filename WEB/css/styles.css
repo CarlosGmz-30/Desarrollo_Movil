@@ -7,3 +7,21 @@
         max-height: auto;
     }
 }
+
+.button{
+    border: #123f82 solid 0.2px;
+    background: transparent;
+    color: black;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #123f82;
+    scale: 1.1;
+    color: white;
+}
