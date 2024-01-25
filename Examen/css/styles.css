@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+#cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#section-1,
+section-2 {
+    margin-bottom: 2%;
+}
+
+.card {
+    margin: 1%;
+}
+
+#price-comment {
+    display: flex;
+}
+
+#offert {
+    width: 60%;
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#price {
+    display: flex;
+    width: 30%;
+    margin: 3%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 15px;
+}
+
+#best-offerts-container {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#best-offerts-btn {
+    margin-left: auto;
+    border: none;
+    background-color: rgb(138, 33, 33);
+    color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#categories-container {
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#img-top {
+    width: auto;
+    height: 200px;
+}
+
+#section-3 {
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 5%;
+}
+
+#questions-container {
+    border: solid 1px rgb(182, 182, 182);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+#tittle-container {
+    border-bottom: 1px solid rgb(182, 182, 182);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tittle-container img {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#inputs {
+    margin: 2%;
+}
+
+#buttons-container {
+    margin: 2%;
+    margin-left: auto;
+}
+
+#btn-enviar,
+#btn-limpiar {
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+}
+
+#btn-limpiar {
+    width: 100px;
+    margin-right: 10px;
+}
+
+#btn-enviar {
+    background-color: rgb(57, 155, 241);
+    color: white;
+    width: 130px;
+}
+
+#footer-img-container img {
+    width: 25px;
+    height: auto;
+    margin: 6%;
+}
+
+#footer-img-container {
+    margin-left: auto;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/************************** ANIMACIONES ******************************/
+
+#nav-link:hover {
+    font-weight: bold;
+}
+
+/************************** ESTILOS RESPONSIVOS ******************************/
+
+@media only screen and (max-width: 426px) {
+    #cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #categories-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-3 {
+        margin-top: 10%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 10%;
+    }
+
+    #inputs {
+        margin: 5%;
+    }
+
+    #buttons-container {
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    #best-offerts-container {
+        display: flex;
+        margin-left: 5%;
+        margin-right: 7%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
