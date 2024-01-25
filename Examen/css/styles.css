@@ -148,12 +148,6 @@ section-2 {
     align-items: center;
 }
 
-/************************** ANIMACIONES ******************************/
-
-#nav-link:hover {
-    font-weight: bold;
-}
-
 /************************** ESTILOS RESPONSIVOS ******************************/
 
 @media only screen and (max-width: 426px) {
