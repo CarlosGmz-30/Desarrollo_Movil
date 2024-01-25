@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Barra de Navegación -->
+    <nav id="nav-bar">
+        <div id="columna1">
+            <img id="img-logo" src="./assets/img/xing.png" alt="Imagen de Logo">
+        </div>
+        <div id="columna2">
+            <ul id="navigation-bar" style="margin-bottom: 0 !important;">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca-nosotros">Acerca de nosotros</a></li>
+                <li><a href="#contacto">Contactanos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección -->
+    <section style="margin: 3%;">
+        <!-- Fila1 -->
+        <div id="section-container-1">
+            <!-- Título -->
+            <h3 style="border-bottom: 2px solid rgb(36, 49, 187);">Bienvenido a nuestra familia</h3>
+            <!-- Contendor de texto e imagen -->
+            <div id="columns-container">
+                <div id="fila">
+                    <div>
+                        <h2>Bitbucket</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati aliquam molestias nihil
+                            ullam, sit fugiat autem laudantium porro maiores quibusdam voluptate excepturi aspernatur
+                            fuga
+                            natus ipsum quisquam ducimus dolorem! Reiciendis! Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Officiis veritatis vel dignissimos accusamus corporis repellendus
+                            consequuntur a quo perspiciatis, deleniti cum eos, assumenda enim quae adipisci ducimus modi
+                            odio. In?</p>
+                    </div>
+                    <div id="imagen1">
+                        <img src="./assets/img/img1.png" alt="Imagen 1">
+                    </div>
+                </div>
+                <div id="fila">
+                    <div id="imagen2">
+                        <img src="./assets/img/img1.png" alt="Imagen 1">
+                    </div>
+                    <div>
+                        <h2>Nuestras Ideas</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati aliquam molestias nihil
+                            ullam, sit fugiat autem laudantium porro maiores quibusdam voluptate excepturi aspernatur
+                            fuga
+                            natus ipsum quisquam ducimus dolorem! Reiciendis! Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Facilis saepe tempora fugiat ea soluta adipisci dolore iste fugit quam
+                            beatae nostrum reprehenderit quos, debitis, voluptates animi cum excepturi aut quisquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fila2 -->
+        <div id="section-container-2">
+            <h3 style="border-bottom: 2px solid rgb(36, 49, 187);">Acerca de nosotros</h3>
+            <div style="display: flex; margin-top: 35px; margin-bottom: 30px;">
+                <div class="card" style="width: 25rem; margin-right: 40px;">
+                    <img src="./assets/img/img3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 25rem; margin-right: 20px;">
+                    <img src="./assets/img/img2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fila3 -->
+        <div id="section-container-3">
+            <!-- Título -->
+            <h3 style="border-bottom: 2px solid rgb(36, 49, 187);">Contactanos</h3>
+            <!-- Contenedor de Inputs y Comentarios -->
+            <div id="general-container">
+                <div id="inputs-container">
+                    <!-- Inputs -->
+                    <div id="inputs">
+                        <label for="">Nombre completo <span class="text-danger">(*)</span></label>
+                        <input class="form-control" id="fullname">
+                        <label for="" style="margin-top: 25px">Teléfono del Contacto<span
+                                class="text-danger">(*)</span></label>
+                        <input class="form-control" id="fullname">
+                        <label for="" style="margin-top: 25px">Teléfono del Contacto<span
+                                class="text-danger">(*)</span></label>
+                        <input class="form-control" id="fullname">
+                    </div>
+                    <!-- Comentarios -->
+                    <div id="comments">
+                        <label for="">Escribe aquí tus dudas <span class="text-danger">(*)</span></label>
+                        <textarea class="form-control" name="message" cols="30" rows="8"></textarea>
+                    </div>
+                </div>
+                <!-- Logos -->
+                <div id="contact-img-container"
+                    style="justify-content: center; align-items: center; display: flex;    ">
+                    <img src="./assets/img/gmail.png" alt="">
+                    <img src="./assets/img/youtube.png" alt="">
+                    <img src="./assets/img/facebook.png" alt="">
+                </div>
+                <!-- Botón -->
+                <div id="button-container">
+                    <button type="submit" class="btn btn-outline-primary">Enviar formulario</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
