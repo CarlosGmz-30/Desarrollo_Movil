@@ -1,0 +1,3 @@
+npx create-expo-app [Nombre del Proyecto] - Para crear un proyecto nuevo
+npm start --clear-cache - Para iniciar el proyecto y limpiar cache
+npm install - Volver a descargar toda las dependencias
