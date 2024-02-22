@@ -26,7 +26,7 @@ const nombreUsuario = "Carlos";
 const edadUsuario = 20;
 
 const mensajeBienvenida = (nombre, edad) => {
-    return `¡Bienvenida ${nombre}, tienes ${edad} años!`;
+    return `¡Bienvenido ${nombre}, tienes ${edad} años!`;
 };
 
 const mensajePrueba = mensajeBienvenida(nombreUsuario, edadUsuario);
