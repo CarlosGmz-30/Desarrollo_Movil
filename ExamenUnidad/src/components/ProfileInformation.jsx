@@ -1,10 +1,19 @@
-import { StyleSheet, Text, View } from 'react-native'
-// import { SearchBar } from 'react-native-elements';
+import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 
-export default function Search() {
+export default function ProfileInformation() {
     return (
         <View style={styles.container}>
+            <View style={styles.profile}>
+                <Image
+                    style={{ width: 80, height: 80 }}
+                    source={require('../image/avatar-de-usuario.png')}
+                />
+                <View style={styles.profileInformation}>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Carlos Martínez Gómez</Text>
+                    <Text style={{ fontSize: 15 }}>20223tn066@utez.edu.mx</Text>
+                </View>
+            </View>
             <View style={styles.imageContainer}>
                 <View style={styles.image}></View>
                 <View style={styles.image}></View>
@@ -23,6 +32,16 @@ const styles = StyleSheet.create({
     container: {
         margin: '5%',
         height: '20%',
+    },
+    profile: {
+        display: 'flex',
+        flexDirection: 'row',
+    },
+    profileInformation: {
+        display: 'flex',
+        flexDirection: 'column',
+        marginLeft: '5%',
+        justifyContent: 'center',
     },
     image: {
         width: 100,
