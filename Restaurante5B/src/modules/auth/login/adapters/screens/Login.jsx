@@ -34,9 +34,9 @@ export default function Login(props) {
     <View style={styles.container}>
       <Image source={Logo} style={styles.logo} resizeMode="contain" />
       <Input
-        placeholder="erickmireles@utez.edu.mx"
+        placeholder="Correo electrónico"
         onChange={({ nativeEvent: { text } }) => setEmail(text)}
-        label="Correo electrónico *"
+        label="Correo electrónico:"
         labelStyle={styles.label}
         containerStyle={styles.input}
         keyboardType="email-address"
@@ -46,9 +46,9 @@ export default function Login(props) {
         errorMessage={showErrorMessage}
       />
       <Input
-        placeholder="*********"
+        placeholder="Contraseña"
         onChange={({ nativeEvent: { text } }) => setPassword(text)}
-        label="Contraseña *"
+        label="Contraseña:"
         labelStyle={styles.label}
         containerStyle={styles.input}
         secureTextEntry={showPassword}

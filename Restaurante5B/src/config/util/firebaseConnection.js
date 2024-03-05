@@ -6,13 +6,14 @@ import {
 import ReactNativeAsyncStorage from "@react-native-async-storage/async-storage";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
+
 const firebaseConfig = {
-  apiKey: "AIzaSyC7Ee4KPxi99Vjyt5-K_MxupJhScf4nMfc",
-  authDomain: "restauranteb-40cb1.firebaseapp.com",
-  projectId: "restauranteb-40cb1",
-  storageBucket: "restauranteb-40cb1.appspot.com",
-  messagingSenderId: "446154473336",
-  appId: "1:446154473336:web:14bbab41c9276b2ba5928d",
+  apiKey: "AIzaSyB3xyjCNPtnlJTdZ7aBcn7hmBA9kxf-82M",
+  authDomain: "restaurante5b-b231f.firebaseapp.com",
+  projectId: "restaurante5b-b231f",
+  storageBucket: "restaurante5b-b231f.appspot.com",
+  messagingSenderId: "556682163250",
+  appId: "1:556682163250:web:0493f9ad582680bb67f82b"
 };
 
 const app = initializeApp(firebaseConfig);
