@@ -5,7 +5,7 @@ import React from 'react'
 export default function Home() {
     return (
         <View style={styles.container}>
-            <View style={{ margin: '5%' }}>
+            <View style={{ margin: '8%' }}>
                 <Text style={{ fontSize: 20, fontWeight: 'bold', textAlign: 'center', marginBottom: 10 }}>Minecraft</Text>
                 <View style={styles.picture}>
                     <Image
