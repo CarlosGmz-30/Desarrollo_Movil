@@ -1,28 +1,23 @@
 import { StyleSheet, Text, View } from 'react-native'
-// import { SearchBar } from 'react-native-elements';
+import { Input } from '@rneui/base'
+import FeedProfile from '../../../profile/adapters/components/FeedProfile'
 import React from 'react'
 
 export default function Search() {
     return (
         <View style={styles.container}>
-            <View style={styles.imageContainer}>
-                <View style={styles.image}></View>
-                <View style={styles.image}></View>
-                <View style={styles.image}></View>
-            </View>
-            <View style={styles.imageContainer}>
-                <View style={styles.image}></View>
-                <View style={styles.image}></View>
-                <View style={styles.image}></View>
-            </View>
+            <Input placeholder="Search" />
+            <FeedProfile />
         </View>
     )
 }
 
 const styles = StyleSheet.create({
     container: {
-        margin: '5%',
-        height: '20%',
+        margin: '2%',
+        height: '100%',
+        marginTop: '10%',
+        marginBottom: '10%',
     },
     image: {
         width: 100,
