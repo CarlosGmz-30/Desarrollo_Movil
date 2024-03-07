@@ -6,7 +6,7 @@ export default function ProfileInformation() {
         <View style={styles.container}>
             <View style={styles.profile}>
                 <Image
-                    style={{ width: 80, height: 80, borderRadius: 50}}
+                    style={{ width: 80, height: 80, borderRadius: 50 }}
                     source={require('../../../../image/steve.png')}
                 />
                 <View style={styles.profileInformation}>
